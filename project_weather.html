@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/weather.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+  </head>
+ <body>
+  
+  <div class="left-background"></div>
+  <div class="right-background"></div>	 
+  <div class="content">
+  <div class="container">
+	  <fieldset>
+		  <input id="city" type="text" class="ghost-input" placeholder="Enter a City" required>
+          <input type="submit" class="ghost-button" onclick="GetWeather('city');" value="Let's Go!">
+		  <p id="display"></p>
+
+  <script src = "js/weather.js"></script>
+	  </fieldset>
+	 </div>
+	</div> 
+ </body>
+</html>
